@@ -1,0 +1,64 @@
+body {
+    /* Define a cor do plano de fundo e a fonte */
+    background: #93AEE8;
+    font: normal 15pt Arial;
+    color: white;
+}
+
+section {
+    /* Posição  */
+    padding-top: 10px;
+    width: 330px;
+    height: 400px;
+    margin: 100px auto;
+    background: #81A3EB;
+    box-shadow: 5px  5px 10px rgba(0, 0, 0, 0.36);
+}
+
+h1{
+    font-size: 20pt;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin: -60px 0px 0px 0px;
+}
+.rodape{
+    margin-top: -80px;
+}
+
+input{
+    border-radius: 8px;
+    box-shadow: inset;
+    width: 250px;
+    height: 50px;
+    background-color: #d9d9d9; 
+    font-size: 13pt;   
+    margin: 30px 0px 0px 0px;
+}
+
+.checkbox{
+    font-size: 12pt;
+    margin: -10px 150px 0px 0px;
+}
+#rememberMe{
+    width: 15px;
+    height: 11px;;
+}
+
+.buttonLogin{
+    background-color: #4F83F0;
+    color: white;
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 5px  5px 10px rgba(0, 0, 0, 0.36);
+}
+
+.login{
+    background: #81A3EB;;
+    height: 377px;
+    text-align: center;
+}
