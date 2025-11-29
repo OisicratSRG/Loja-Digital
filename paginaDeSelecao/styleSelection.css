@@ -1,0 +1,56 @@
+body {
+    background: #93AEE8;
+    font: normal 15pt Arial;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 40pt;
+    min-width: 700px;
+}
+
+.selecoes {
+    display: flex;
+    margin-top: 10px;
+}
+.Cliente {
+    min-width: 330px;
+    height: 400px;
+    margin: auto 40px auto auto;
+    background: #81A3EB;
+    box-shadow: 5px  5px 10px rgba(0, 0, 0, 0.36);
+    border-radius: 15px;
+}
+.Vendedor {
+    min-width: 330px;
+    height: 400px;
+    margin: auto auto auto 40px;
+    background: #81A3EB;
+    box-shadow: 5px  5px 10px rgba(0, 0, 0, 0.36);
+    border-radius: 15px;
+}
+.Cliente:hover, .Vendedor:hover {
+    cursor: pointer;
+    background: #6F8FD7;
+    transition: 0.3s;
+}
+
+.perfilCliente{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+.perfilVendedor{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+.perfilCircle{
+    width: 150px;
+    height: 150px;
+    margin: 70px auto auto;
+    background: white;
+    border-radius: 100%;
+}
