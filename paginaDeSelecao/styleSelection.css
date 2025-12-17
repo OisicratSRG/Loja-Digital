@@ -36,6 +36,14 @@ h1 {
     background: #6F8FD7;
     transition: 0.3s;
 }
+.Cliente:visited, .Vendedor:visited {
+    text-decoration: none;
+    color: white;
+}
+.Cliente:link, .Vendedor:link {
+    text-decoration: none;
+    color: white;
+}
 
 .perfilCliente{
     width: 100px;
